@@ -47,7 +47,7 @@ favicon: "/img/favicon.ico" # 网站左上图标
 # Header layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico" # 标题左边图标
+# black-favicon: "/img/black-lab-glass.ico" # 标题左边图标
 
 background-img: "../img/intro-bg.jpg" # banner图
 
@@ -139,14 +139,14 @@ syntax-highlight: True
 ############
 # Timeline #
 ############
-
+# 时间轴各项事件
 events:
   - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
+    date: "2016/06 - 2017/06"
+    description: "实习结束，在电子科技大学西区科技园中一个公司做web前端开发，主要负责公司一款移动OA的webapp开发。涉及到有semantic-ui + angular1 + angular-ui-router + ODataAngularResources + cordova.js + gulp"
   - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+    date: "2015/06 - 2016/06"
+    description: "在成都某家公司进行web前端实习，从此开始了我的前端之路。"
 
 # First image of the Timeline
 
@@ -174,16 +174,14 @@ author_blurb_image: "/img/author.png"
 ##################
 
 social:
-  - title: "facebook"
-    url: "https://facebook.com/"
-  - title: "twitter"
-    url: "https://twitter.com/"
   - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
-  - title: "rss"
-    url: "/feed.xml"
+    url: "https://github.com/yikuta"
+  - title: "weibo"
+    url: "http://www.weibo.com/2684579353/profile"
+  - title: "qq"
+    url: "https://user.qzone.qq.com/1198976508/infocenter"
+  - title: "weixin"
+    url: "https://wx.qq.com"
 
 ############
 # 404 page #
@@ -197,7 +195,7 @@ err-404-img: "/img/labtocat.png"
 
 keybase-username: mzwgkz
 keybase-in-social: False
-keybase-in-footer: True
+keybase-in-footer: False
 
 ################################################################################
 
@@ -206,10 +204,10 @@ keybase-in-footer: True
 # Sections shown in the index page
 
 pages_list:
-  About: 'about'
-  Blog: 'latest-post'
-  Timeline: 'timeline'
-  Contact: 'contact'
+  关于: 'about'
+  博客和笔记: 'latest-post'
+  时间轴: 'timeline'
+  联系: 'contact'
 
 # Exclusion list from the generated _site
 
