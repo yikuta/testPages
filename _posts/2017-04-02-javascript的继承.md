@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: ES6常用新特性
+title: 继承的实现方式
 category: js
 #tags: [ 'tutorial' ]  #给帖子加标签
 #<span>&nbsp;</span>
@@ -10,7 +10,7 @@ category: js
 #</code></pre>
 ---
 
-# 继承的实现方式
+## 继承的实现方式
 
 我们先定义一个父类：
 <pre><code>
